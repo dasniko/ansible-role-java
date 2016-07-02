@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: "Niko Köbler"
+  description: "Java SDK"
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+    - name: Ubuntu
+      versions:
+      - precise
+      - trusty
+  categories:
+   - development
+dependencies: []

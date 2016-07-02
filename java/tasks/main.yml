@@ -1,0 +1,15 @@
+---
+- name: Add Python utils
+  apt:
+    name: python-software-properties
+    state: present
+    update_cache: yes
+
+- name: Add Ubuntu OpenJDK repo (for current Java versions)
+  apt_repository: repo='ppa:openjdk-r/ppa' state=present
+
+- name: Install OpenJDK
+  apt:
+    name: openjdk-{{java_version}}-jdk
+    state: present
+    update_cache: yes
