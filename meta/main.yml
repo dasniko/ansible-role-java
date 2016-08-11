@@ -9,6 +9,6 @@ galaxy_info:
       versions:
       - precise
       - trusty
-  galxy_tags:
+  galaxy_tags:
    - development
 dependencies: []
